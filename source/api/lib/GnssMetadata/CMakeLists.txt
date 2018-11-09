@@ -121,7 +121,7 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/../../inc/tinyxml2
 )
 
-add_library(api ${api_sources})
+add_library(api SHARED ${api_sources})
 
 
 

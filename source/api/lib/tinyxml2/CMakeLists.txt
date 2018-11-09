@@ -27,5 +27,5 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/../../inc/tinyxml2
     )
 
-add_library( xml ${XML_LIB_SRCS} )
+add_library( xml SHARED ${XML_LIB_SRCS} )
 
