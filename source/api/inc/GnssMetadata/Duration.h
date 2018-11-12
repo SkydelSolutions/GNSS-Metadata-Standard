@@ -23,12 +23,14 @@
 #define DURATION_H_H
 
 #include "BaseTypes.h"
+#include "dll_export.h"
+
 namespace GnssMetadata
 {
 	/**
 	* Class represents a duration in time.
 	*/
-	class Duration: public Object
+	class DLL_PUBLIC Duration: public Object
 	{
 		
 	public:

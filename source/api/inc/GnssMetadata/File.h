@@ -26,13 +26,14 @@
 #include "AnyUri.h"
 #include "Lane.h"
 #include "Date.h"
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
 	/**
 	 * Class defines metadata for a specific data file. 
 	 */
-	class File  : public AttributedObject
+	class DLL_PUBLIC File  : public AttributedObject
 	{
 		
 	public:

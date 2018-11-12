@@ -23,6 +23,7 @@
 #define ANYURI_H_H
 
 #include "BaseTypes.h"
+#include "dll_export.h"
 #include <list>
 
 namespace GnssMetadata
@@ -30,7 +31,7 @@ namespace GnssMetadata
 	/**
 	 * Class represents an XML any URI type.  
 	 */
-	class AnyUri: public Object
+	class DLL_PUBLIC AnyUri: public Object
 	{
 		
 	public:

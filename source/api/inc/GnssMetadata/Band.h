@@ -26,6 +26,7 @@
 #include "Frequency.h"
 #include "Duration.h"
 #include "BaseTypes.h"
+#include "dll_export.h"
 #include <list>
 
 namespace GnssMetadata
@@ -33,7 +34,7 @@ namespace GnssMetadata
 	/**
 	 * Band defines a finite spectrum of bandwidth that has been translated and processed in some manner resulting in a translated frequency output. Formerly known as band.
 	 */
-	class Band: public AttributedObject
+	class DLL_PUBLIC Band: public AttributedObject
 	{
 		
 	public:

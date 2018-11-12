@@ -23,6 +23,7 @@
 #define COMMENT_H_H
 
 #include "BaseTypes.h"
+#include "dll_export.h"
 #include <list>
 
 namespace GnssMetadata
@@ -30,7 +31,7 @@ namespace GnssMetadata
 	/**
 	* Class defines a comment attribute for GNSS metadata.
 	*/
-	class Comment: public Object
+	class DLL_PUBLIC Comment: public Object
 	{
 		
 	public:

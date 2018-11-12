@@ -24,13 +24,14 @@
 
 #include "BaseTypes.h"
 #include "Lump.h"
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
 	/**
 	 * Chunk defines the packing of lumps. 
 	 */
-	class Chunk: public AttributedObject
+	class DLL_PUBLIC Chunk: public AttributedObject
 	{
 	public:
 		enum WordEndian

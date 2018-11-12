@@ -27,6 +27,7 @@
 #include "Source.h"
 #include "Cluster.h"
 #include "Frequency.h"
+#include "dll_export.h"
 #include <list>
 
 namespace GnssMetadata
@@ -34,7 +35,7 @@ namespace GnssMetadata
 	/**
 	 * Class defines system metadata attributes.
 	 */
-	class System: public AttributedObject
+	class DLL_PUBLIC System: public AttributedObject
 	{
 	public:
 		enum SystemType

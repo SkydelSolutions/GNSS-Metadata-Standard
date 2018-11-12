@@ -26,6 +26,7 @@
 #include "GnssMetadata/Metadata.h"
 #include "Context.h"
 #include "tinyxml2/tinyxml2.h"
+#include "GnssMetadata/dll_export.h"
 
 namespace GnssMetadata
 {
@@ -34,7 +35,7 @@ namespace GnssMetadata
 	/**
 	 * Processor loads/saves metadata information with XML file format.  The processor reads metadata compliant with the GnssMetadata Schema.
 	 */
-	class XmlProcessor: public Object
+	class DLL_PUBLIC XmlProcessor: public Object
 	{
 		friend class Translator;
 	public:

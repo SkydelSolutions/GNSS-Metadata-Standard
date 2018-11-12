@@ -27,10 +27,12 @@
 #include "System.h"
 #include "AttributedObject.h"
 #include "BaseTypes.h"
+#include "dll_export.h"
 #include <list>
+
 namespace GnssMetadata
 {
-	class Session : public AttributedObject
+	class DLL_PUBLIC Session : public AttributedObject
 	{
 		
 	public:

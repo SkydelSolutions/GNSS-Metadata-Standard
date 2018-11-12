@@ -22,6 +22,7 @@
 #ifndef METADATA_H_H
 #define METADATA_H_H
 
+#include "dll_export.h"
 #include "AttributedObject.h"
 #include "Band.h"
 #include "File.h"
@@ -41,7 +42,7 @@ namespace GnssMetadata
 	 * Container class for all GNSS Metadata information. This class is the starting
 	 * point for creating metadata for datafiles.
 	 */
-	class Metadata: public AttributedObject
+	class DLL_PUBLIC Metadata: public AttributedObject
 	{
 	public:
 		Metadata( const IonString& id) : AttributedObject( id){}

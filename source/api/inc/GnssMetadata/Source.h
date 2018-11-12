@@ -26,14 +26,14 @@
 #include "AttributedObject.h"
 #include "Position.h"
 #include "Orientation.h"
-
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
 	/**
 	 * Class defines a source.
 	 */
-	class Source: public AttributedObject
+	class DLL_PUBLIC Source: public AttributedObject
 	{
 	public:
 		enum SourcePolarization 

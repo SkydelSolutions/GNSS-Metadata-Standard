@@ -27,13 +27,14 @@
 #include "System.h"
 #include "Block.h"
 #include "AttributedObject.h"
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
 	/**
 	 * Class defines a Lane configuration of file formant and equipment configuration.
 	 */
-	class Lane: public AttributedObject
+	class DLL_PUBLIC Lane: public AttributedObject
 	{
 	public:
 		struct BandSource

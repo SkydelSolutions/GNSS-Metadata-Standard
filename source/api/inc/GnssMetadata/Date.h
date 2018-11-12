@@ -21,6 +21,7 @@
  #ifndef DATE_H_H
 #define DATE_H_H
 
+#include "dll_export.h"
 #include <time.h>
 
 ////Grab os time type.
@@ -51,7 +52,7 @@ namespace GnssMetadata
 	/**
 	 * Simple Date and Time class with GPS time conversion support.
 	 */
-	class Date: public Object
+	class DLL_PUBLIC Date: public Object
 	{
 	public:
 		static Date Now();

@@ -23,13 +23,14 @@
 #define ORIENTATION_H_H
 
 #include "BaseTypes.h"
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
 	/**
 	 * Class represents the Latitude, Longitude, and height for a position.
 	 */
-	class Orientation: public Object
+	class DLL_PUBLIC Orientation: public Object
 	{
 		
 	public:

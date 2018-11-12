@@ -24,6 +24,7 @@
 
 #include "BaseTypes.h"
 #include "Chunk.h"
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
@@ -32,7 +33,7 @@ namespace GnssMetadata
 	/**
 	 * Class defines a metadata block.
 	 */
-	class Block: public AttributedObject
+	class DLL_PUBLIC Block: public AttributedObject
 	{
 		
 	public:

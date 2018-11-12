@@ -25,6 +25,7 @@
 #include "BaseTypes.h"
 #include "IonStream.h"
 #include "AttributedObject.h"
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
@@ -32,7 +33,7 @@ namespace GnssMetadata
 	 * Class defines a collection of sample words organized into a contiguous block. This is known as a Lump in the 
 	 * currente draft specfication.
 	 */
-	class Lump: public AttributedObject
+	class DLL_PUBLIC Lump: public AttributedObject
 	{
 	public:
 

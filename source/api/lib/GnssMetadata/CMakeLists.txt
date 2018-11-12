@@ -122,10 +122,7 @@ include_directories(
 )
 
 add_library(api SHARED ${api_sources})
-
-
-
-
+target_link_libraries(api xml)
 
 
 

@@ -28,12 +28,14 @@
 #endif
 
 #include "BaseTypes.h"
+#include "dll_export.h"
+
 namespace GnssMetadata
 {
 	/**
 	 * Class represents an frequency representable in multiple units.   Default unit format is Hz.
 	 */
-	class Frequency: public Object
+	class DLL_PUBLIC Frequency: public Object
 	{
 	public:
 		enum FrequencyFormat

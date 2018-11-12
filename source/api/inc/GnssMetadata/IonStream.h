@@ -26,6 +26,7 @@
 #include "Band.h"
 #include "Duration.h"
 #include "BaseTypes.h"
+#include "dll_export.h"
 #include <list>
 
 namespace GnssMetadata
@@ -33,7 +34,7 @@ namespace GnssMetadata
 	/**
 	 * A stream is defined as a series of binary values that are derived from samples by multiple channels packed into a specified frame and subframe format.
 	 */
-	class IonStream: public AttributedObject
+	class DLL_PUBLIC IonStream: public AttributedObject
 	{
 		
 	public:

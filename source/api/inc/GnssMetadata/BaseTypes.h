@@ -25,6 +25,7 @@
 #include <string>
 #include <stdexcept>
 
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
@@ -36,7 +37,7 @@ namespace GnssMetadata
 	/**
 	 * Base class of all GnssMetadata objects and primitives.
 	 */
-	class Object
+	class DLL_PUBLIC Object
 	{
 	public:
 		static const IonString DefaultFormat;

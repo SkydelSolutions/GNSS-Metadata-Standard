@@ -25,13 +25,14 @@
 #include "BaseTypes.h"
 #include "AnyUri.h"
 #include "Comment.h"
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
 	/**
 	 * An attributed object can have comments and artifact URLs associated with it.
 	 */
-	class AttributedObject: public Object
+	class DLL_PUBLIC AttributedObject: public Object
 	{
 	public:
 		/** 

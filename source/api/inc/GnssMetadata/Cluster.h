@@ -26,13 +26,14 @@
 #include "AttributedObject.h"
 #include "Position.h"
 #include "Orientation.h"
+#include "dll_export.h"
 
 namespace GnssMetadata
 {
 	/**
 	 * Class an entenna cluster array.
 	 */
-	class Cluster: public AttributedObject
+	class DLL_PUBLIC Cluster: public AttributedObject
 	{
 	public:
 		/**
