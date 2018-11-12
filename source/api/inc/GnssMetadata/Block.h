@@ -33,7 +33,7 @@ namespace GnssMetadata
 	/**
 	 * Class defines a metadata block.
 	 */
-	class DLL_PUBLIC Block: public AttributedObject
+	class API_DLL_PUBLIC Block: public AttributedObject
 	{
 		
 	public:

@@ -33,7 +33,7 @@ namespace GnssMetadata
 	 * Class defines a collection of sample words organized into a contiguous block. This is known as a Lump in the 
 	 * currente draft specfication.
 	 */
-	class DLL_PUBLIC Lump: public AttributedObject
+	class API_DLL_PUBLIC Lump: public AttributedObject
 	{
 	public:
 

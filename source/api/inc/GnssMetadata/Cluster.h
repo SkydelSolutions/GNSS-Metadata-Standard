@@ -33,7 +33,7 @@ namespace GnssMetadata
 	/**
 	 * Class an entenna cluster array.
 	 */
-	class DLL_PUBLIC Cluster: public AttributedObject
+	class API_DLL_PUBLIC Cluster: public AttributedObject
 	{
 	public:
 		/**

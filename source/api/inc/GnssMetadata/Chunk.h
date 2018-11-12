@@ -31,7 +31,7 @@ namespace GnssMetadata
 	/**
 	 * Chunk defines the packing of lumps. 
 	 */
-	class DLL_PUBLIC Chunk: public AttributedObject
+	class API_DLL_PUBLIC Chunk: public AttributedObject
 	{
 	public:
 		enum WordEndian

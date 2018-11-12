@@ -34,7 +34,7 @@ namespace GnssMetadata
 	/**
 	 * Class defines a Lane configuration of file formant and equipment configuration.
 	 */
-	class DLL_PUBLIC Lane: public AttributedObject
+	class API_DLL_PUBLIC Lane: public AttributedObject
 	{
 	public:
 		struct BandSource

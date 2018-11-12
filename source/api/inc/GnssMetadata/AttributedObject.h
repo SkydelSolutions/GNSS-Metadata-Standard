@@ -32,7 +32,7 @@ namespace GnssMetadata
 	/**
 	 * An attributed object can have comments and artifact URLs associated with it.
 	 */
-	class DLL_PUBLIC AttributedObject: public Object
+	class API_DLL_PUBLIC AttributedObject: public Object
 	{
 	public:
 		/** 

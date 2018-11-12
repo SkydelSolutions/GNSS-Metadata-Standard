@@ -52,7 +52,7 @@ namespace GnssMetadata
 	/**
 	 * Simple Date and Time class with GPS time conversion support.
 	 */
-	class DLL_PUBLIC Date: public Object
+	class API_DLL_PUBLIC Date: public Object
 	{
 	public:
 		static Date Now();

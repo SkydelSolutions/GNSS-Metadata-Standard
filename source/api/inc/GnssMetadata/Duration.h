@@ -30,7 +30,7 @@ namespace GnssMetadata
 	/**
 	* Class represents a duration in time.
 	*/
-	class DLL_PUBLIC Duration: public Object
+	class API_DLL_PUBLIC Duration: public Object
 	{
 		
 	public:

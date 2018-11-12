@@ -35,7 +35,7 @@ namespace GnssMetadata
 	/**
 	 * Class defines system metadata attributes.
 	 */
-	class DLL_PUBLIC System: public AttributedObject
+	class API_DLL_PUBLIC System: public AttributedObject
 	{
 	public:
 		enum SystemType

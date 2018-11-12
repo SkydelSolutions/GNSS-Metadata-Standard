@@ -31,7 +31,7 @@ namespace GnssMetadata
 	/**
 	 * Class represents an XML any URI type.  
 	 */
-	class DLL_PUBLIC AnyUri: public Object
+	class API_DLL_PUBLIC AnyUri: public Object
 	{
 		
 	public:

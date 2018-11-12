@@ -35,7 +35,7 @@ namespace GnssMetadata
 	/**
 	 * Class represents an frequency representable in multiple units.   Default unit format is Hz.
 	 */
-	class DLL_PUBLIC Frequency: public Object
+	class API_DLL_PUBLIC Frequency: public Object
 	{
 	public:
 		enum FrequencyFormat

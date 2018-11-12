@@ -37,7 +37,7 @@ namespace GnssMetadata
 	/**
 	 * Base class of all GnssMetadata objects and primitives.
 	 */
-	class DLL_PUBLIC Object
+	class API_DLL_PUBLIC Object
 	{
 	public:
 		static const IonString DefaultFormat;

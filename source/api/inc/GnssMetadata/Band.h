@@ -34,7 +34,7 @@ namespace GnssMetadata
 	/**
 	 * Band defines a finite spectrum of bandwidth that has been translated and processed in some manner resulting in a translated frequency output. Formerly known as band.
 	 */
-	class DLL_PUBLIC Band: public AttributedObject
+	class API_DLL_PUBLIC Band: public AttributedObject
 	{
 		
 	public:

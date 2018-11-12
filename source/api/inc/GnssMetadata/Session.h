@@ -32,7 +32,7 @@
 
 namespace GnssMetadata
 {
-	class DLL_PUBLIC Session : public AttributedObject
+	class API_DLL_PUBLIC Session : public AttributedObject
 	{
 		
 	public:

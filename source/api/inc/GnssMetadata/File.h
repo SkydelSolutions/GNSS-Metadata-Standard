@@ -33,7 +33,7 @@ namespace GnssMetadata
 	/**
 	 * Class defines metadata for a specific data file. 
 	 */
-	class DLL_PUBLIC File  : public AttributedObject
+	class API_DLL_PUBLIC File  : public AttributedObject
 	{
 		
 	public:

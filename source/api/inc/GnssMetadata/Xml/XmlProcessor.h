@@ -35,7 +35,7 @@ namespace GnssMetadata
 	/**
 	 * Processor loads/saves metadata information with XML file format.  The processor reads metadata compliant with the GnssMetadata Schema.
 	 */
-	class DLL_PUBLIC XmlProcessor: public Object
+	class API_DLL_PUBLIC XmlProcessor: public Object
 	{
 		friend class Translator;
 	public:

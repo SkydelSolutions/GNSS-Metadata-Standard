@@ -34,7 +34,7 @@ namespace GnssMetadata
 	/**
 	 * A stream is defined as a series of binary values that are derived from samples by multiple channels packed into a specified frame and subframe format.
 	 */
-	class DLL_PUBLIC IonStream: public AttributedObject
+	class API_DLL_PUBLIC IonStream: public AttributedObject
 	{
 		
 	public:

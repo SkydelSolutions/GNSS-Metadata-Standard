@@ -42,7 +42,7 @@ namespace GnssMetadata
 	 * Container class for all GNSS Metadata information. This class is the starting
 	 * point for creating metadata for datafiles.
 	 */
-	class DLL_PUBLIC Metadata: public AttributedObject
+	class API_DLL_PUBLIC Metadata: public AttributedObject
 	{
 	public:
 		Metadata( const IonString& id) : AttributedObject( id){}

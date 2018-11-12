@@ -31,7 +31,7 @@ namespace GnssMetadata
 	/**
 	* Class defines a comment attribute for GNSS metadata.
 	*/
-	class DLL_PUBLIC Comment: public Object
+	class API_DLL_PUBLIC Comment: public Object
 	{
 		
 	public:

@@ -33,7 +33,7 @@ namespace GnssMetadata
 	/**
 	 * Class defines a source.
 	 */
-	class DLL_PUBLIC Source: public AttributedObject
+	class API_DLL_PUBLIC Source: public AttributedObject
 	{
 	public:
 		enum SourcePolarization 

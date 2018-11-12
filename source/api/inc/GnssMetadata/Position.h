@@ -30,7 +30,7 @@ namespace GnssMetadata
 	/**
 	 * Class represents the Latitude, Longitude, and height for a position.
 	 */
-	class DLL_PUBLIC Position: public Object
+	class API_DLL_PUBLIC Position: public Object
 	{
 		
 	public:
