@@ -69,11 +69,21 @@ bool BandTranslator::OnRead( Context & ctxt, const XMLElement & elem, AccessorAd
 	{
 		//Parse CenterFrequency
 		pchild = elem.FirstChildElement("centerfreq");
+		if( pchild == NULL)
+		{
+			return false;
+		}
+
 		AccessorAdaptor<Band, Frequency> adpt( &band, &Band::CenterFrequency);
 		bRetVal = ReadElement( band, ctxt, *pchild, &adpt);
 
 		//Parse Translated Frequency
 		pchild = elem.FirstChildElement("translatedfreq");
+		if( pchild == NULL)
+		{
+			return false;
+		}
+
 		AccessorAdaptor<Band, Frequency> adpt1( &band, &Band::TranslatedFrequency);
 		bRetVal &= ReadElement( band, ctxt, *pchild, &adpt1);
 
